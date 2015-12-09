@@ -7,4 +7,4 @@ if ! [ $1 ]; then
   exit 1
 fi
 
-git tag -a '{$1}' -m 'v{$1}'
+git tag -a ${1} -m "v${1}"
